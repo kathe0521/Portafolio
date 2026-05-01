@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | Katherin Ruiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">KATHERIN<span>RUIZ</span></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Proyectos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-5 mt-5">
+        <div class="container py-5">
+            <h2 class="section-title text-center mb-5">Mis Proyectos Realizados</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card-modern shadow-sm border-0">
+                        <img src="https://img.youtube.com/vi/G3e-cpL7ofc/hqdefault.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="p-4 bg-white">
+                            <h5>Landing Page Responsiva</h5>
+                            <p class="text-muted small">Sitio web moderno adaptable a todos los dispositivos.</p>
+                            <button class="btn btn-purple btn-ver w-100" data-video="G3e-cpL7ofc">
+                                <i class="fas fa-play-circle me-2"></i>Ver Video
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-modern shadow-sm border-0">
+                        <img src="https://img.youtube.com/vi/bMknfKXIFA8/hqdefault.jpg" class="card-img-top" alt="Proyecto 2">
+                        <div class="p-4 bg-white">
+                            <h5>App de Tareas</h5>
+                            <p class="text-muted small">Aplicación interactiva para gestionar tareas con React.</p>
+                            <button class="btn btn-purple btn-ver w-100" data-video="bMknfKXIFA8">
+                                <i class="fas fa-play-circle me-2"></i>Ver Video
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-modern shadow-sm border-0">
+                        <img src="https://img.youtube.com/vi/-qfEOE4vtxE/hqdefault.jpg" class="card-img-top" alt="Proyecto 3">
+                        <div class="p-4 bg-white">
+                            <h5>Dashboard Bootstrap</h5>
+                            <p class="text-muted small">Panel administrativo con gráficas y componentes modernos.</p>
+                            <button class="btn btn-purple btn-ver w-100" data-video="-qfEOE4vtxE">
+                                <i class="fas fa-play-circle me-2"></i>Ver Video
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalVideo" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark border-0 overflow-hidden">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe id="videoFrame" src="" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4 text-center mt-5">
+        <p class="mb-0 text-muted">© 2026 · Katherin Ruiz</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
